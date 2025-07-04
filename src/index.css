@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+html, body {
+  height: 100%;
+  margin: 0; /* Ensure no default margin is added */
+  background: linear-gradient(to bottom, #111827, #000000, #111827);
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f1f1f; /* Optional: scrollbar track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+html {
+  scroll-behavior: smooth;
+}
