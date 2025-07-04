@@ -47,7 +47,7 @@ const About = () => {
       </div>
       <div className=" sm:w-1/3 m-auto cursor-grab">
         <img
-          src="src/mainApp/assets/aboutimage.jpg"
+          src={aboutimage}
           height={400}
           width={400}
           className="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
