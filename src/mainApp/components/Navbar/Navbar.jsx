@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-
+import devimage from "../../assets/devimage.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="src/mainApp/assets/devimage.png"
+            src={devimage}
             alt="Logo"
             className="w-12 h-12 sm:w-16 sm:h-16"
           />

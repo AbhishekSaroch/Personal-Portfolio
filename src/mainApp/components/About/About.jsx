@@ -1,5 +1,5 @@
 import React from "react";
-
+import aboutimage from "../../assets/aboutimage.jpg"
 const About = () => {
   return (
     <div className="text-white mt-25 w-full  flex flex-col  md:flex-row sm:gap-0 gap-10 py-2 sm:py-5 ">

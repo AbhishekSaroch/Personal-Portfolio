@@ -1,18 +1,29 @@
 import React from "react";
-
+import html from "../../assets/html.svg"
+import css from "../../assets/css.svg"
+import javascript from "../../assets/javascript.svg"
+import react from "../../assets/react.svg"
+import tailwind from "../../assets/tailwind.svg"
+import git from "../../assets/git.svg"
+import github from "../../assets/github.svg"
+import nodejs from "../../assets/nodejs.svg"
+import expressjs from "../../assets/expressjs.svg"
+import sql from "../../assets/sql.svg"
+import python from "../../assets/python.svg"
+import mongodb from "../../assets/mongodb.svg"
 const skills = [
-  { name: "HTML", level: 95, color: "bg-orange-400", icon: "src/mainApp/assets/html.svg" },
-  { name: "CSS", level: 90, color: "bg-blue-400", icon: "src/mainApp/assets/css.svg" },
-  { name: "JavaScript", level: 85, color: "bg-yellow-300", icon: "src/mainApp/assets/javascript.svg" },
-  { name: "React", level: 80, color: "bg-cyan-400", icon: "src/mainApp/assets/react.svg" },
-  { name: "Tailwind", level: 75, color: "bg-teal-400", icon: "src/mainApp/assets/tailwind.svg" },
-  { name: "Git", level: 70, color: "bg-red-400", icon: "src/mainApp/assets/git.svg" },
-  { name: "GitHub", level: 65, color: "bg-gray-300", icon: "src/mainApp/assets/github.svg" },
-  { name: "Node JS", level: 80, color: "bg-aqua-400", icon: "src/mainApp/assets/nodejs.svg" },
-  { name: "Express JS", level: 80, color: "bg-pink-400", icon: "src/mainApp/assets/expressjs.svg" },
-  { name: "SQL", level: 80, color: "bg-purple-400", icon: "src/mainApp/assets/sql.svg" },
-  { name: "Python", level: 80, color: "bg-gray-400", icon: "src/mainApp/assets/python.svg" },
-  { name: "Mongo DB", level: 80, color: "bg-red-600", icon: "src/mainApp/assets/mongodb.svg" },
+  { name: "HTML", level: 95, color: "bg-orange-400", icon: html },
+  { name: "CSS", level: 90, color: "bg-blue-400", icon: css },
+  { name: "JavaScript", level: 85, color: "bg-yellow-300", icon: javascript },
+  { name: "React", level: 80, color: "bg-cyan-400", icon: react},
+  { name: "Tailwind", level: 75, color: "bg-teal-400", icon: tailwind},
+  { name: "Git", level: 70, color: "bg-red-400", icon: git },
+  { name: "GitHub", level: 65, color: "bg-gray-300", icon: github },
+  { name: "Node JS", level: 80, color: "bg-aqua-400", icon: nodejs },
+  { name: "Express JS", level: 80, color: "bg-pink-400", icon: expressjs },
+  { name: "SQL", level: 80, color: "bg-purple-400", icon: sql },
+  { name: "Python", level: 80, color: "bg-gray-400", icon: python },
+  { name: "Mongo DB", level: 80, color: "bg-red-600", icon: mongodb },
 ];
 
 const Skills = () => {
